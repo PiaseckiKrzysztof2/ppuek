@@ -1,0 +1,7 @@
+print(type(50))                                   # Liczba całkowita (int)
+print(type(149.17))                               # Liczba zmiennoprzecinkowa (float)
+print(type(4 * 7))                                # Mnożenie liczb całkowitych (int)
+print(type(4.0 * 7))                              # Mnożenie z liczbą dziesiętną (float)
+print(type("Krakow University of Economics"))     # Tekst (str)
+print(type(True))                                 # Wartość logiczna (bool)
+print(type(2 > 5))                                # Porównanie liczb (bool)
