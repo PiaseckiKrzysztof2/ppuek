@@ -1,0 +1,16 @@
+# Usuwa spacje ze zdania
+def f(sentence):
+    result = ''
+    for char in sentence:
+        if char != ' ':
+            result += char
+    return result
+
+
+def main():
+    print(f("integrated development environment"))
+    print(f("A programming language is a system of notation for writing computer programs"))
+
+
+if __name__ == "__main__":
+    main()

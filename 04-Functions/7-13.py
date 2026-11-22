@@ -1,0 +1,15 @@
+# Liczby od 1 do n jako jeden napis
+def f(n):
+    result = ''
+    for i in range(1, n + 1):
+        result += str(i)  # liczbę trzeba zamienić na tekst
+    return result
+
+
+def main():
+    print(f'f(11) returns "{f(11)}"')
+    print(f'f(4) returns "{f(4)}"')
+
+
+if __name__ == "__main__":
+    main()
